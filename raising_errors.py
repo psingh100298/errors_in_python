@@ -6,7 +6,7 @@ class Garage:
         return len(self.cars)
     
     def add_car(self,car):
-        print("This method is a work in progress..")
+        raise NotImplementedError("We can't add cars to the garage yet.." )
 
 ford = Garage()
 ford.add_car('Fiesta')
